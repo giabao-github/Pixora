@@ -43,30 +43,23 @@ class DownloadWorker(QObject):
                 # Better filename generation
                 parsed = urlparse(self.url)
                 original_filename = os.path.basename(parsed.path)
-                
-                # Clean filename and make it readable
-                if original_filename and not original_filename.startswith('.'):
-                    # Remove query parameters and clean the filename
+                filename = None
+                valid_exts = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp')
+                # Only use original filename if it has a valid image extension
+                if original_filename and not original_filename.startswith('.') and original_filename.lower().endswith(valid_exts):
                     filename = re.sub(r'[^\w\-_\.]', '_', original_filename)
                     filename = re.sub(r'_+', '_', filename)  # Remove multiple underscores
                     filename = filename.strip('_')
-                    
-                    # Ensure proper extension
-                    if not filename.lower().endswith((".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp")):
-                        filename += f".{ext}"
-                else:
-                    # Generate a meaningful filename based on domain and content
-                    domain = parsed.netloc.replace('www.', '').replace('.', '_')
-                    # Use image size for uniqueness
-                    width, height = image.size
-                    filename = f"image_{domain}_{width}x{height}.{ext}"
+                # If still no filename, use default
+                if not filename:
+                    filename = f"pixora_image.{ext}"
             
             # Ensure unique filename
             base_name, extension = os.path.splitext(filename)
             counter = 1
             save_path = os.path.join(self.folder_path, filename)
             while os.path.exists(save_path):
-                filename = f"{base_name}({counter}){extension}"
+                filename = f"{base_name} ({counter}){extension}"
                 save_path = os.path.join(self.folder_path, filename)
                 counter += 1
             
