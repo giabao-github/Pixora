@@ -1,8 +1,15 @@
 import os
 import webbrowser
 from PySide6.QtWidgets import (
-    QMainWindow,  QFileDialog, QVBoxLayout, QWidget, QGraphicsOpacityEffect,
-    QGraphicsDropShadowEffect, QSplitter, QMenu, QApplication
+    QMainWindow,
+    QFileDialog,
+    QVBoxLayout,
+    QWidget,
+    QGraphicsOpacityEffect,
+    QGraphicsDropShadowEffect,
+    QSplitter,
+    QMenu,
+    QApplication,
 )
 from PySide6.QtGui import QIcon, QTextCursor
 from PySide6.QtCore import Qt, QTimer, QPropertyAnimation, QThread
@@ -12,6 +19,7 @@ from download_worker import DownloadWorker
 from widgets.overlay_widget import OverlayWidget
 from widgets.panels import create_left_panel, create_right_panel
 from settings.settings_manager import load_settings, save_settings
+
 
 class ImageDownloaderApp(QMainWindow):
     def __init__(self):
@@ -34,34 +42,36 @@ class ImageDownloaderApp(QMainWindow):
     def init_ui(self):
         # Main widget with clean background
         main_widget = QWidget()
-        main_widget.setStyleSheet("""
+        main_widget.setStyleSheet(
+            """
             QWidget {
-                background-color: #f5f5f5;
+                background-color: #F5F5F5;
                 font-family: 'Segoe UI', Arial, sans-serif;
             }
-        """)
-        
+        """
+        )
+
         # Create splitter for better layout
         splitter = QSplitter(Qt.Horizontal)
-        
+
         # Left panel - Main controls
         left_panel = create_left_panel(self)
         splitter.addWidget(left_panel)
-        
+
         # Right panel - Status and output
         right_panel = create_right_panel(self)
         splitter.addWidget(right_panel)
-        
+
         # Set splitter proportions
         splitter.setSizes([650, 300])
         splitter.setCollapsible(0, False)
         splitter.setCollapsible(1, False)
-        
+
         # Main layout
         main_layout = QVBoxLayout()
         main_layout.setContentsMargins(10, 10, 10, 10)
         main_layout.addWidget(splitter)
-        
+
         main_widget.setLayout(main_layout)
         self.setCentralWidget(main_widget)
 
@@ -71,7 +81,7 @@ class ImageDownloaderApp(QMainWindow):
         shadow.setOffset(2, 2)
         self.settings_btn.setGraphicsEffect(shadow)
 
-        # --- Add Drop Shadow to Main Window (optional, may not be visible on all OS) ---
+        # --- Add Drop Shadow to Main Window ---
         main_shadow = QGraphicsDropShadowEffect()
         main_shadow.setBlurRadius(16)
         main_shadow.setOffset(0, 4)
@@ -91,15 +101,18 @@ class ImageDownloaderApp(QMainWindow):
         self.download_anim = QPropertyAnimation(self.download_opacity, b"opacity")
         self.download_anim.setDuration(350)
 
-        self.settings_panel = SettingsPanel(self, auto_download=self.auto_download, on_save=self.handle_settings_save, on_close=self.close_settings_panel)
+        self.settings_panel = SettingsPanel(
+            self,
+            auto_download=self.auto_download,
+            on_save=self.handle_settings_save,
+            on_close=self.close_settings_panel,
+        )
         self.settings_panel.hide()
         self.overlay = OverlayWidget(self, self.settings_panel)
         self.overlay.hide()
 
     def choose_folder(self):
-        if folder := QFileDialog.getExistingDirectory(
-            self, "Select Download Folder"
-        ):
+        if folder := QFileDialog.getExistingDirectory(self, "Select Download Folder"):
             self.folder_path = folder
             self.update_folder_label()
             save_settings(self)
@@ -107,50 +120,56 @@ class ImageDownloaderApp(QMainWindow):
     def update_folder_label(self):
         if self.folder_path:
             # Show full path
-            self.folder_label.setText(f"{IconProvider.get('folder')} {self.folder_path}")
+            self.folder_label.setText(
+                f"{IconProvider.get('folder')} {self.folder_path}"
+            )
             self.folder_label.setToolTip(self.folder_path)
             self.set_folder_label_style_and_buttons(
                 """
                 QLabel {
-                    color: #27ae60;
+                    color: #27AE60;
                     font-size: 13px;
                     font-weight: 600;
-                    background: #d5f4e6;
+                    background: #D5F4E6;
                     padding: 10px;
                     border-radius: 6px;
-                    border: 1px solid #27ae60;
+                    border: 1px solid #27AE60;
                 }
             """,
                 True,
-                ' Change Folder',
+                " Change Folder",
             )
         else:
             self.folder_label.setText("No folder selected")
             self.set_folder_label_style_and_buttons(
                 """
                 QLabel {
-                    color: #7f8c8d;
+                    color: #7F8C8D;
                     font-size: 13px;
-                    background: #ecf0f1;
+                    background: #ECF0F1;
                     padding: 10px;
                     border-radius: 6px;
-                    border: 1px solid #bdc3c7;
+                    border: 1px solid #BDC3C7;
                 }
             """,
                 False,
-                ' Choose Folder',
+                " Choose Folder",
             )
 
-    def set_folder_label_style_and_buttons(self, folder_label, open_btn, folder_btn):
-        self.folder_label.setStyleSheet(folder_label)
-        self.open_btn.setEnabled(open_btn)
-        self.folder_btn.setText(f"{IconProvider.get('folder_open')}{folder_btn}")
+    def set_folder_label_style_and_buttons(
+        self, label_style, enable_open_btn, folder_btn_text
+    ):
+        self.folder_label.setStyleSheet(label_style)
+        self.open_btn.setEnabled(enable_open_btn)
+        self.folder_btn.setText(f"{IconProvider.get('folder_open')}{folder_btn_text}")
 
     def paste_clipboard(self):
         clipboard = QApplication.clipboard()
         if text := clipboard.text():
             self.url_input.setText(text)
-            self.show_status(f"{IconProvider.get('paste')} URL pasted from clipboard", "info")
+            self.show_status(
+                f"{IconProvider.get('paste')} URL pasted from clipboard", "info"
+            )
 
     def clear_url(self):
         self.url_input.clear()
@@ -160,7 +179,9 @@ class ImageDownloaderApp(QMainWindow):
         clipboard = QApplication.clipboard()
         if text := clipboard.text():
             self.filename_input.setText(text)
-            self.show_status(f"{IconProvider.get('paste')} Filename pasted from clipboard", "info")
+            self.show_status(
+                f"{IconProvider.get('paste')} Filename pasted from clipboard", "info"
+            )
 
     def clear_filename(self):
         self.filename_input.clear()
@@ -182,10 +203,15 @@ class ImageDownloaderApp(QMainWindow):
     def download_image(self):
         url = self.url_input.text().strip()
         if not url:
-            self.show_status(f"{IconProvider.get('warning')} Please enter an image URL", "error")
+            self.show_status(
+                f"{IconProvider.get('warning')} Please enter an image URL", "error"
+            )
             return
         if not self.folder_path:
-            self.show_status(f"{IconProvider.get('warning')} Please select a download folder", "error")
+            self.show_status(
+                f"{IconProvider.get('warning')} Please select a download folder",
+                "error",
+            )
             return
 
         # --- Animate download button fade out ---
@@ -205,7 +231,7 @@ class ImageDownloaderApp(QMainWindow):
         self.download_thread = QThread()
         self.worker = DownloadWorker(url, self.folder_path, custom_filename)
         self.worker.moveToThread(self.download_thread)
-        
+
         # Connect signals
         self.download_thread.started.connect(self.worker.download)
         self.worker.progress.connect(self.update_download_progress)
@@ -213,7 +239,7 @@ class ImageDownloaderApp(QMainWindow):
         self.worker.finished.connect(self.download_thread.quit)
         self.worker.finished.connect(self.worker.deleteLater)
         self.download_thread.finished.connect(self.download_thread.deleteLater)
-        
+
         self.download_thread.start()
 
     def update_download_progress(self, message):
@@ -229,17 +255,23 @@ class ImageDownloaderApp(QMainWindow):
         self.download_btn.setIcon(QIcon("icons/download.svg"))
         self.download_btn.setText(" Download Image")
         self.paste_btn.setEnabled(True)
-        
+
         if success:
             self.downloaded_file_path = result
-            self.show_status(f"{IconProvider.get('check')} Successfully downloaded: {filename}", "success")
+            self.show_status(
+                f"{IconProvider.get('check')} Successfully downloaded: {filename}",
+                "success",
+            )
             self.add_to_history(f"{IconProvider.get('check')} {filename}")
         else:
-            self.show_status(f"{IconProvider.get('error')} Download failed: {result}", "error")
+            self.show_status(
+                f"{IconProvider.get('error')} Download failed: {result}", "error"
+            )
             self.add_to_history(f"{IconProvider.get('error')} Failed: {result}")
 
     def add_to_history(self, message):
         from datetime import datetime
+
         timestamp = datetime.now().strftime("%H:%M:%S")
         current_text = self.history_text.toPlainText()
         if current_text == "No downloads yet...":
@@ -254,16 +286,17 @@ class ImageDownloaderApp(QMainWindow):
 
     def show_status(self, message, status_type="info"):
         colors = {
-            "info": ("#3498db", "#e3f2fd"),
-            "success": ("#27ae60", "#e8f5e8"),
-            "error": ("#e74c3c", "#ffeaea"),
-            "warning": ("#f39c12", "#fff3e0")
+            "info": ("#3498DB", "#E3F2FD"),
+            "success": ("#27AE60", "#E8F5E8"),
+            "error": ("#E74C3C", "#FFEEAA"),
+            "warning": ("#F39C12", "#FFF3E0"),
         }
-        
+
         color, bg_color = colors.get(status_type, colors["info"])
-        
+
         self.status_label.setText(message)
-        self.status_label.setStyleSheet(f"""
+        self.status_label.setStyleSheet(
+            f"""
             QLabel {{
                 color: {color};
                 font-size: 14px;
@@ -273,7 +306,8 @@ class ImageDownloaderApp(QMainWindow):
                 border-left: 4px solid {color};
                 font-weight: 600;
             }}
-        """)
+        """
+        )
         # --- Animate status label opacity ---
         self.status_anim.stop()
         self.status_opacity.setOpacity(0.0)
@@ -289,12 +323,14 @@ class ImageDownloaderApp(QMainWindow):
 
     def add_context_menu(self, widget):
         widget.setContextMenuPolicy(Qt.CustomContextMenu)
+
         def menu(pos):
             menu = QMenu()
             menu.addAction("Copy", widget.copy)
             menu.addAction("Paste", widget.paste)
             menu.addAction("Clear", widget.clear)
             menu.exec(widget.mapToGlobal(pos))
+
         widget.customContextMenuRequested.connect(menu)
 
     def open_settings_dialog(self):
@@ -311,18 +347,18 @@ class ImageDownloaderApp(QMainWindow):
             self.settings_panel.show()
             self.settings_panel.raise_()
             # Animate slide-in
-            from PySide6.QtCore import QPropertyAnimation
             anim = QPropertyAnimation(self.settings_panel, b"pos")
             anim.setDuration(250)
             anim.setStartValue(self.settings_panel.pos())
-            anim.setEndValue(self.rect().topRight() - self.settings_panel.rect().topRight())
+            anim.setEndValue(
+                self.rect().topRight() - self.settings_panel.rect().topRight()
+            )
             anim.start()
             self._settings_anim = anim
 
     def close_settings_panel(self):
         if self.settings_panel.isVisible():
             # Animate slide-out
-            from PySide6.QtCore import QPropertyAnimation
             anim = QPropertyAnimation(self.settings_panel, b"pos")
             anim.setDuration(200)
             anim.setStartValue(self.settings_panel.pos())

@@ -17,7 +17,20 @@ def create_left_panel(main_window):
     layout = QVBoxLayout()
     layout.setContentsMargins(20, 20, 20, 20)
     layout.setSpacing(20)
-    # Header with settings button
+    layout.addLayout(create_header_section(main_window))
+    layout.addWidget(create_url_input_group(main_window))
+    layout.addWidget(create_filename_input_group(main_window))
+    layout.addWidget(create_folder_group(main_window))
+    layout.addWidget(create_download_button(main_window))
+    layout.addStretch()
+    content_widget = QWidget()
+    content_widget.setLayout(layout)
+    scroll = QScrollArea()
+    scroll.setWidgetResizable(True)
+    scroll.setWidget(content_widget)
+    return scroll
+
+def create_header_section(main_window):
     header_layout = QHBoxLayout()
     header = QLabel(f"{IconProvider.get('image')} Pixora - Smart Image Downloader")
     header.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
@@ -51,21 +64,22 @@ def create_left_panel(main_window):
             background-color: #66748B;
         }
         QPushButton:disabled {
-            background-color: #bdc3c7;
-            color: #7f8c8d;
+            background-color: #BDC3C7;
+            color: #7F8C8D;
         }
     """)
     main_window.settings_btn.setCursor(QCursor(Qt.PointingHandCursor))
     main_window.settings_btn.clicked.connect(main_window.open_settings_dialog)
     header_layout.addWidget(main_window.settings_btn)
-    layout.addLayout(header_layout)
-    # URL Input Group
+    return header_layout
+
+def create_url_input_group(main_window):
     url_group = QGroupBox("Image URL")
     url_group.setStyleSheet("""
         QGroupBox {
             font-weight: bold;
-            color: #2c3e50;
-            border: 2px solid #e0e0e0;
+            color: #2C3E50;
+            border: 2px solid #E0E0E0;
             border-radius: 8px;
             margin-top: 10px;
             padding-top: 10px;
@@ -83,39 +97,39 @@ def create_left_panel(main_window):
     main_window.url_input.setStyleSheet("""
         QLineEdit {
             padding: 12px;
-            border: 2px solid #e0e0e0;
+            border: 2px solid #E0E0E0;
             border-radius: 6px;
             font-size: 14px;
             background: white;
-            color: #2c3e50;
+            color: #2C3E50;
         }
         QLineEdit:focus {
-            border-color: #3498db;
+            border-color: #3498DB;
         }
     """)
     url_layout.addWidget(main_window.url_input)
-    # URL action buttons
     url_buttons = QHBoxLayout()
     main_window.paste_btn = QPushButton(f"{IconProvider.get('paste')} Paste")
     main_window.paste_btn.clicked.connect(main_window.paste_clipboard)
-    main_window.paste_btn.setStyleSheet(get_button_style("#9b59b6"))
+    main_window.paste_btn.setStyleSheet(get_button_style("#9B59B6"))
     main_window.paste_btn.setCursor(QCursor(Qt.PointingHandCursor))
     main_window.clear_btn = QPushButton(f"{IconProvider.get('clear')} Clear")
     main_window.clear_btn.clicked.connect(main_window.clear_url)
-    main_window.clear_btn.setStyleSheet(get_button_style("#e74c3c"))
+    main_window.clear_btn.setStyleSheet(get_button_style("#E74C3C"))
     main_window.clear_btn.setCursor(QCursor(Qt.PointingHandCursor))
     url_buttons.addWidget(main_window.paste_btn)
     url_buttons.addWidget(main_window.clear_btn)
     url_layout.addLayout(url_buttons)
     url_group.setLayout(url_layout)
-    layout.addWidget(url_group)
-    # Custom Filename Group
+    return url_group
+
+def create_filename_input_group(main_window):
     filename_group = QGroupBox("Custom Filename (Optional)")
     filename_group.setStyleSheet("""
         QGroupBox {
             font-weight: bold;
             color: #2C3E50;
-            border: 2px solid #e0e0e0;
+            border: 2px solid #E0E0E0;
             border-radius: 8px;
             margin-top: 10px;
             padding-top: 10px;
@@ -132,40 +146,40 @@ def create_left_panel(main_window):
     main_window.filename_input.setStyleSheet("""
         QLineEdit {
             padding: 12px;
-            border: 2px solid #e0e0e0;
+            border: 2px solid #E0E0E0;
             border-radius: 6px;
             font-size: 14px;
             background: white;
-            color: #2c3e50;
+            color: #2C3E50;
         }
         QLineEdit:focus {
-            border-color: #3498db;
+            border-color: #3498DB;
         }
     """)
     main_window.filename_input.textChanged.connect(main_window.on_filename_change)
     filename_layout.addWidget(main_window.filename_input)
-    # Filename action buttons
     filename_buttons = QHBoxLayout()
     main_window.filename_paste_btn = QPushButton(f"{IconProvider.get('paste')} Paste")
     main_window.filename_paste_btn.clicked.connect(main_window.paste_filename)
-    main_window.filename_paste_btn.setStyleSheet(get_button_style("#9b59b6"))
+    main_window.filename_paste_btn.setStyleSheet(get_button_style("#9B59B6"))
     main_window.filename_paste_btn.setCursor(QCursor(Qt.PointingHandCursor))
     main_window.filename_clear_btn = QPushButton(f"{IconProvider.get('clear')} Clear")
     main_window.filename_clear_btn.clicked.connect(main_window.clear_filename)
-    main_window.filename_clear_btn.setStyleSheet(get_button_style("#e74c3c"))
+    main_window.filename_clear_btn.setStyleSheet(get_button_style("#E74C3C"))
     main_window.filename_clear_btn.setCursor(QCursor(Qt.PointingHandCursor))
     filename_buttons.addWidget(main_window.filename_paste_btn)
     filename_buttons.addWidget(main_window.filename_clear_btn)
     filename_layout.addLayout(filename_buttons)
     filename_group.setLayout(filename_layout)
-    layout.addWidget(filename_group)
-    # Download Location Group
+    return filename_group
+
+def create_folder_group(main_window):
     folder_group = QGroupBox("Download Location")
     folder_group.setStyleSheet("""
         QGroupBox {
             font-weight: bold;
-            color: #2c3e50;
-            border: 2px solid #e0e0e0;
+            color: #2C3E50;
+            border: 2px solid #E0E0E0;
             border-radius: 8px;
             margin-top: 10px;
             padding-top: 10px;
@@ -180,44 +194,39 @@ def create_left_panel(main_window):
     main_window.folder_label = QLabel("No folder selected")
     main_window.folder_label.setStyleSheet("""
         QLabel {
-            color: #7f8c8d;
+            color: #7F8C8D;
             font-size: 13px;
             font-weight: 600;
-            background: #ecf0f1;
+            background: #ECF0F1;
             padding: 10px;
             border-radius: 6px;
-            border: 1px solid #bdc3c7;
+            border: 1px solid #BDC3C7;
         }
     """)
     folder_layout.addWidget(main_window.folder_label)
     folder_buttons = QHBoxLayout()
     main_window.folder_btn = QPushButton(f"{IconProvider.get('folder_open')} Choose Folder")
     main_window.folder_btn.clicked.connect(main_window.choose_folder)
-    main_window.folder_btn.setStyleSheet(get_button_style("#27ae60"))
+    main_window.folder_btn.setStyleSheet(get_button_style("#27AE60"))
     main_window.folder_btn.setCursor(QCursor(Qt.PointingHandCursor))
     main_window.open_btn = QPushButton(f"{IconProvider.get('folder')} Open Folder")
     main_window.open_btn.clicked.connect(main_window.open_folder)
     main_window.open_btn.setEnabled(False)
-    main_window.open_btn.setStyleSheet(get_button_style("#34495e"))
+    main_window.open_btn.setStyleSheet(get_button_style("#34495E"))
     main_window.open_btn.setCursor(QCursor(Qt.PointingHandCursor))
     folder_buttons.addWidget(main_window.folder_btn)
     folder_buttons.addWidget(main_window.open_btn)
     folder_layout.addLayout(folder_buttons)
     folder_group.setLayout(folder_layout)
-    layout.addWidget(folder_group)
-    # Download button
-    main_window.download_btn = QPushButton(f"{IconProvider.get('download')} Download Image")
-    main_window.download_btn.clicked.connect(main_window.download_image)
-    main_window.download_btn.setStyleSheet(get_button_style("\t#FF69B4", large=True))
-    main_window.download_btn.setCursor(QCursor(Qt.PointingHandCursor))
-    layout.addWidget(main_window.download_btn)
-    layout.addStretch()
-    content_widget = QWidget()
-    content_widget.setLayout(layout)
-    scroll = QScrollArea()
-    scroll.setWidgetResizable(True)
-    scroll.setWidget(content_widget)
-    return scroll
+    return folder_group
+
+def create_download_button(main_window):
+    download_btn = QPushButton(f"{IconProvider.get('download')} Download Image")
+    download_btn.clicked.connect(main_window.download_image)
+    download_btn.setStyleSheet(get_button_style("#FF69B4", large=True))
+    download_btn.setCursor(QCursor(Qt.PointingHandCursor))
+    main_window.download_btn = download_btn
+    return download_btn
 
 def create_right_panel(main_window):
     widget = QWidget()
@@ -235,8 +244,8 @@ def create_right_panel(main_window):
     status_group.setStyleSheet("""
         QGroupBox {
             font-weight: bold;
-            color: #2c3e50;
-            border: 2px solid #e0e0e0;
+            color: #2C3E50;
+            border: 2px solid #E0E0E0;
             border-radius: 8px;
             margin-top: 10px;
             padding-top: 10px;
@@ -251,12 +260,12 @@ def create_right_panel(main_window):
     main_window.status_label = QLabel("Ready to download images")
     main_window.status_label.setStyleSheet("""
         QLabel {
-            color: #7f8c8d;
+            color: #7F8C8D;
             font-size: 14px;
             padding: 12px;
-            background: #ecf0f1;
+            background: #ECF0F1;
             border-radius: 6px;
-            border-left: 4px solid #3498db;
+            border-left: 4px solid #3498DB;
         }
     """)
     main_window.status_label.setWordWrap(True)
@@ -268,8 +277,8 @@ def create_right_panel(main_window):
     history_group.setStyleSheet("""
         QGroupBox {
             font-weight: bold;
-            color: #2c3e50;
-            border: 2px solid #e0e0e0;
+            color: #2C3E50;
+            border: 2px solid #E0E0E0;
             border-radius: 8px;
             margin-top: 10px;
             padding-top: 10px;
@@ -286,19 +295,19 @@ def create_right_panel(main_window):
     main_window.history_text.setMaximumHeight(200)
     main_window.history_text.setStyleSheet("""
         QTextEdit {
-            background: #f8f9fa;
-            border: 1px solid #e0e0e0;
+            background: #F8F9FA;
+            border: 1px solid #E0E0E0;
             border-radius: 6px;
             padding: 8px;
             font-size: 12px;
-            color: #2c3e50;
+            color: #2C3E50;
         }
     """)
     main_window.history_text.setPlainText("No downloads yet...")
     history_layout.addWidget(main_window.history_text)
     clear_history_btn = QPushButton(f"{IconProvider.get('clear')} Clear History")
     clear_history_btn.clicked.connect(main_window.clear_history)
-    clear_history_btn.setStyleSheet(get_button_style("#e74c3c", small=True))
+    clear_history_btn.setStyleSheet(get_button_style("#E74C3C", small=True))
     clear_history_btn.setCursor(QCursor(Qt.PointingHandCursor))
     history_layout.addWidget(clear_history_btn)
     history_group.setLayout(history_layout)

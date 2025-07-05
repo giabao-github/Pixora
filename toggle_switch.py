@@ -35,7 +35,7 @@ class ToggleSwitch(QWidget):
         painter.setRenderHint(QPainter.Antialiasing)
         
         # Draw background
-        bg_color = QColor("#3498db") if self.checked else QColor("#bdc3c7")
+        bg_color = QColor("#3498DB") if self.checked else QColor("#BDC3C7")
         painter.setBrush(bg_color)
         painter.setPen(Qt.NoPen)
         painter.drawRoundedRect(0, 0, self.width(), self.height(), 12, 12)

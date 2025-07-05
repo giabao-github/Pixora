@@ -18,7 +18,7 @@ class SettingsPanel(QWidget):
         title = QLabel(f"{IconProvider.get('settings')} Settings")
         title.setStyleSheet("""
             QLabel {
-                color: #222f3e;
+                color: #222F3E;
                 font-size: 26px;
                 font-weight: 800;
                 margin-bottom: 0px;
@@ -31,16 +31,16 @@ class SettingsPanel(QWidget):
         close_btn.setFixedSize(40, 40)
         close_btn.setStyleSheet("""
             QPushButton {
-                background: #f1f2f6;
-                color: #e74c3c;
-                border: 2px solid #e74c3c;
+                background: #F1F2F6;
+                color: #E74C3C;
+                border: 2px solid #E74C3C;
                 border-radius: 20px;
                 font-size: 22px;
                 font-weight: bold;
             }
             QPushButton:hover {
-                background: #e74c3c;
-                color: #fff;
+                background: #E74C3C;
+                color: #FFF;
             }
         """)
         close_btn.setCursor(QCursor(Qt.PointingHandCursor))
@@ -51,14 +51,14 @@ class SettingsPanel(QWidget):
         divider = QFrame()
         divider.setFrameShape(QFrame.HLine)
         divider.setFrameShadow(QFrame.Sunken)
-        divider.setStyleSheet("border: none; background: #e0e0e0; height: 2px; margin: 0 0 12px 0;")
+        divider.setStyleSheet("border: none; background: #E0E0E0; height: 2px; margin: 0 0 12px 0;")
         layout.addWidget(divider)
         # Auto-download toggle
         toggle_row = QHBoxLayout()
         toggle_label = QLabel(f"{IconProvider.get('auto')} Auto-download when valid URL is detected")
         toggle_label.setStyleSheet("""
             QLabel {
-                color: #34495e;
+                color: #34495E;
                 font-size: 17px;
                 font-weight: 600;
             }
@@ -74,7 +74,7 @@ class SettingsPanel(QWidget):
         btn = QPushButton("Save")
         btn.setStyleSheet("""
             QPushButton {
-                background-color: #3498db;
+                background-color: #3498DB;
                 color: white;
                 border: none;
                 border-radius: 10px;
@@ -83,7 +83,7 @@ class SettingsPanel(QWidget):
                 font-size: 18px;
             }
             QPushButton:hover {
-                background-color: #217dbb;
+                background-color: #217DBB;
             }
         """)
         btn.setCursor(QCursor(Qt.PointingHandCursor))
