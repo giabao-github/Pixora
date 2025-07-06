@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import QWidget
 from PySide6.QtCore import Qt
 
+
 class OverlayWidget(QWidget):
     def __init__(self, parent, panel):
         super().__init__(parent)
@@ -12,5 +13,7 @@ class OverlayWidget(QWidget):
 
     def mousePressEvent(self, event):
         # Only close if click is outside the panel
-        if not self.panel.geometry().contains(event.pos()) and hasattr(self.parent(), 'close_settings_panel'):
-            self.parent().close_settings_panel() 
+        if not self.panel.geometry().contains(event.pos()) and hasattr(
+            self.parent(), "close_settings_panel"
+        ):
+            self.parent().close_settings_panel()
