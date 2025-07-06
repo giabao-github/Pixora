@@ -1,0 +1,3804 @@
+(['D:\\Code\\Visual Studio Code\\Python\\Pixora\\app.py'],
+ ['D:\\Code\\Visual Studio Code\\Python\\Pixora'],
+ [],
+ [('D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
+   -1000),
+  ('D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib',
+   -1000)],
+ {},
+ [],
+ [],
+ False,
+ {},
+ 0,
+ [],
+ [],
+ '3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
+  ('app', 'D:\\Code\\Visual Studio Code\\Python\\Pixora\\app.py', 'PYSOURCE')],
+ [('_pyi_rth_utils.qt',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\qt.py',
+   'PYMODULE'),
+  ('importlib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('csv',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('string',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\string.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('copy',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\copy.py',
+   'PYMODULE'),
+  ('random',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\random.py',
+   'PYMODULE'),
+  ('argparse',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('shutil',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('struct',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\struct.py',
+   'PYMODULE'),
+  ('lzma',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('gettext',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('statistics',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('threading',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('bisect',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('_strptime',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('email.charset',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('socket',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('quopri',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('typing',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\typing.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('tempfile',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('contextlib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('textwrap',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('zipfile',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('py_compile',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('pathlib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('pathlib._local',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\pathlib\\_local.py',
+   'PYMODULE'),
+  ('glob',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\glob.py',
+   'PYMODULE'),
+  ('pathlib._abc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\pathlib\\_abc.py',
+   'PYMODULE'),
+  ('inspect',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('token',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\token.py',
+   'PYMODULE'),
+  ('dis',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('_opcode_metadata',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_opcode_metadata.py',
+   'PYMODULE'),
+  ('ast',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\ast.py',
+   'PYMODULE'),
+  ('email',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('json',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('__future__',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('tokenize',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('subprocess',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('hmac',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('runpy',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\zipimport.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('setuptools',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools._vendor.typing_extensions',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
+   'PYMODULE'),
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools._distutils.errors',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils._log',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.base',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\base.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C.msvc',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\msvc.py',
+   'PYMODULE'),
+  ('unittest.mock',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\mock.py',
+   'PYMODULE'),
+  ('unittest',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('difflib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('asyncio',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers', '-', 'PYMODULE'),
+  ('setuptools._distutils.compat.numpy',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\numpy.py',
+   'PYMODULE'),
+  ('jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('sysconfig',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\sysconfig\\__init__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.errors',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\errors.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('platform',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\platform.py',
+   'PYMODULE'),
+  ('_ios_support',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_ios_support.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('site',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\site.py',
+   'PYMODULE'),
+  ('_pyrepl.main',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\main.py',
+   'PYMODULE'),
+  ('_pyrepl',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\__init__.py',
+   'PYMODULE'),
+  ('_pyrepl.curses',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\curses.py',
+   'PYMODULE'),
+  ('curses',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('_pyrepl._minimal_curses',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\_minimal_curses.py',
+   'PYMODULE'),
+  ('_pyrepl.input',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\input.py',
+   'PYMODULE'),
+  ('_pyrepl.keymap',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\keymap.py',
+   'PYMODULE'),
+  ('_pyrepl.types',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\types.py',
+   'PYMODULE'),
+  ('_pyrepl.commands',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\commands.py',
+   'PYMODULE'),
+  ('_pyrepl.pager',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\pager.py',
+   'PYMODULE'),
+  ('tty',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\tty.py',
+   'PYMODULE'),
+  ('_pyrepl.historical_reader',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\historical_reader.py',
+   'PYMODULE'),
+  ('_pyrepl.reader',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\reader.py',
+   'PYMODULE'),
+  ('_pyrepl._threading_handler',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\_threading_handler.py',
+   'PYMODULE'),
+  ('_pyrepl.utils',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\utils.py',
+   'PYMODULE'),
+  ('_colorize',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('_pyrepl.console',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\console.py',
+   'PYMODULE'),
+  ('code',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('_pyrepl.trace',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\trace.py',
+   'PYMODULE'),
+  ('_pyrepl.simple_interact',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\simple_interact.py',
+   'PYMODULE'),
+  ('_pyrepl.unix_console',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\unix_console.py',
+   'PYMODULE'),
+  ('_pyrepl.unix_eventqueue',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\unix_eventqueue.py',
+   'PYMODULE'),
+  ('_pyrepl.base_eventqueue',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\base_eventqueue.py',
+   'PYMODULE'),
+  ('_pyrepl.fancy_termios',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\fancy_termios.py',
+   'PYMODULE'),
+  ('_pyrepl.windows_console',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\windows_console.py',
+   'PYMODULE'),
+  ('_pyrepl.windows_eventqueue',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\windows_eventqueue.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('_pyrepl.readline',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\readline.py',
+   'PYMODULE'),
+  ('_pyrepl.completing_reader',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_pyrepl\\completing_reader.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_sitebuiltins.py',
+   'PYMODULE'),
+  ('pydoc',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('shlex',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('http.server',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('configparser',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py311',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py39',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.glob',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\glob.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat.py310',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('backports',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\compat\\py311.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.tags',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.convert',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\convert.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.tags',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._musllinux',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._elffile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._manylinux',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.requirements',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._structures',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.specifiers',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.markers',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._tokenizer',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._parser',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.pack',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\pack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.unpack',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\unpack.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools._discovery',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_discovery.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('tomllib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tomllib\\__init__.py',
+   'PYMODULE'),
+  ('tomllib._parser',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tomllib\\_parser.py',
+   'PYMODULE'),
+  ('tomllib._types',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tomllib\\_types.py',
+   'PYMODULE'),
+  ('tomllib._re',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tomllib\\_re.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._static',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_static.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._shutil',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_shutil.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('image_downloader_app',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\image_downloader_app.py',
+   'PYMODULE'),
+  ('settings.settings_manager',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\settings\\settings_manager.py',
+   'PYMODULE'),
+  ('settings', '-', 'PYMODULE'),
+  ('widgets.panels',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\widgets\\panels.py',
+   'PYMODULE'),
+  ('widgets', '-', 'PYMODULE'),
+  ('utils.ui_helpers',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\utils\\ui_helpers.py',
+   'PYMODULE'),
+  ('utils', '-', 'PYMODULE'),
+  ('widgets.overlay_widget',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\widgets\\overlay_widget.py',
+   'PYMODULE'),
+  ('download_worker',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\download_worker.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.AvifImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\AvifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('requests',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('requests.models',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('idna',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.http2.probe',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\http2\\probe.py',
+   'PYMODULE'),
+  ('urllib3.http2',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.http2.connection',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\http2\\connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
+   'PYMODULE'),
+  ('settings_panel',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\settings_panel.py',
+   'PYMODULE'),
+  ('toggle_switch',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\toggle_switch.py',
+   'PYMODULE'),
+  ('shiboken6',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\shiboken6\\__init__.py',
+   'PYMODULE'),
+  ('PySide6',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\__init__.py',
+   'PYMODULE'),
+  ('PySide6.support.deprecated',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\support\\deprecated.py',
+   'PYMODULE'),
+  ('PySide6.support',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\support\\__init__.py',
+   'PYMODULE'),
+  ('icon_provider',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\icon_provider.py',
+   'PYMODULE')],
+ [('python313.dll',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\python313.dll',
+   'BINARY'),
+  ('PySide6\\opengl32sw.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qico.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'BINARY'),
+  ('_lzma.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_webp.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_avif.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_avif.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PIL\\_imaging.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp313-win_amd64.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtSvgWidgets.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\QtSvgWidgets.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtSvg.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\QtSvg.pyd',
+   'EXTENSION'),
+  ('shiboken6\\Shiboken.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtNetwork.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\QtNetwork.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtCore.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtGui.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\QtGui.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtWidgets.pyd',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Core.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Network.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
+   'BINARY'),
+  ('shiboken6\\MSVCP140.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Gui.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Svg.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
+   'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Pdf.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Widgets.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140_1.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6SvgWidgets.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6SvgWidgets.dll',
+   'BINARY'),
+  ('python3.dll',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\python3.dll',
+   'BINARY'),
+  ('shiboken6\\shiboken6.abi3.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140_1.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_2.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140_2.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_1.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Quick.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Qml.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlMeta.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
+   'BINARY'),
+  ('PySide6\\Qt6OpenGL.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlModels.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlModels.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlWorkerScript.dll',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlWorkerScript.dll',
+   'BINARY')],
+ [],
+ [],
+ [('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_cs.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ru.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nn.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ja.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_fr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sv.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_da.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_tr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_it.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ko.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_it.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_es.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_tr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ka.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ar.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ar.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fa.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_he.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_de.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fi.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_CN.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_bg.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_en.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ka.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ka.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lt.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nn.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pl.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gd.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_CN.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sk.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ru.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_uk.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hu.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ca.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_uk.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sk.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'D:\\Code\\Visual Studio '
+   'Code\\Python\\Pixora\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('base_library.zip',
+   'D:\\Code\\Visual Studio Code\\Python\\Pixora\\build\\app\\base_library.zip',
+   'DATA')],
+ [('traceback',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('abc',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\abc.py',
+   'PYMODULE'),
+  ('re._parser',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\re\\_parser.py',
+   'PYMODULE'),
+  ('re._constants',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\re\\_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\re\\_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\re\\_casefix.py',
+   'PYMODULE'),
+  ('re',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\re\\__init__.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('posixpath',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('collections',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('ntpath',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('stat',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\stat.py',
+   'PYMODULE'),
+  ('sre_compile',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('os',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\os.py',
+   'PYMODULE'),
+  ('heapq',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('enum',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\enum.py',
+   'PYMODULE'),
+  ('encodings.zlib_codec',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\zlib_codec.py',
+   'PYMODULE'),
+  ('encodings.uu_codec',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\uu_codec.py',
+   'PYMODULE'),
+  ('encodings.utf_8_sig',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_8_sig.py',
+   'PYMODULE'),
+  ('encodings.utf_8',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_8.py',
+   'PYMODULE'),
+  ('encodings.utf_7',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_7.py',
+   'PYMODULE'),
+  ('encodings.utf_32_le',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_32_le.py',
+   'PYMODULE'),
+  ('encodings.utf_32_be',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_32_be.py',
+   'PYMODULE'),
+  ('encodings.utf_32',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_32.py',
+   'PYMODULE'),
+  ('encodings.utf_16_le',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_16_le.py',
+   'PYMODULE'),
+  ('encodings.utf_16_be',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_16_be.py',
+   'PYMODULE'),
+  ('encodings.utf_16',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\utf_16.py',
+   'PYMODULE'),
+  ('encodings.unicode_escape',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\unicode_escape.py',
+   'PYMODULE'),
+  ('encodings.undefined',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\undefined.py',
+   'PYMODULE'),
+  ('encodings.tis_620',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\tis_620.py',
+   'PYMODULE'),
+  ('encodings.shift_jisx0213',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\shift_jisx0213.py',
+   'PYMODULE'),
+  ('encodings.shift_jis_2004',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\shift_jis_2004.py',
+   'PYMODULE'),
+  ('encodings.shift_jis',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\shift_jis.py',
+   'PYMODULE'),
+  ('encodings.rot_13',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\rot_13.py',
+   'PYMODULE'),
+  ('encodings.raw_unicode_escape',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\raw_unicode_escape.py',
+   'PYMODULE'),
+  ('encodings.quopri_codec',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\quopri_codec.py',
+   'PYMODULE'),
+  ('encodings.punycode',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\punycode.py',
+   'PYMODULE'),
+  ('encodings.ptcp154',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\ptcp154.py',
+   'PYMODULE'),
+  ('encodings.palmos',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\palmos.py',
+   'PYMODULE'),
+  ('encodings.oem',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\oem.py',
+   'PYMODULE'),
+  ('encodings.mbcs',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mbcs.py',
+   'PYMODULE'),
+  ('encodings.mac_turkish',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_turkish.py',
+   'PYMODULE'),
+  ('encodings.mac_romanian',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_romanian.py',
+   'PYMODULE'),
+  ('encodings.mac_roman',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_roman.py',
+   'PYMODULE'),
+  ('encodings.mac_latin2',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_latin2.py',
+   'PYMODULE'),
+  ('encodings.mac_iceland',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_iceland.py',
+   'PYMODULE'),
+  ('encodings.mac_greek',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_greek.py',
+   'PYMODULE'),
+  ('encodings.mac_farsi',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_farsi.py',
+   'PYMODULE'),
+  ('encodings.mac_cyrillic',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_cyrillic.py',
+   'PYMODULE'),
+  ('encodings.mac_croatian',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_croatian.py',
+   'PYMODULE'),
+  ('encodings.mac_arabic',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\mac_arabic.py',
+   'PYMODULE'),
+  ('encodings.latin_1',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\latin_1.py',
+   'PYMODULE'),
+  ('encodings.kz1048',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\kz1048.py',
+   'PYMODULE'),
+  ('encodings.koi8_u',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\koi8_u.py',
+   'PYMODULE'),
+  ('encodings.koi8_t',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\koi8_t.py',
+   'PYMODULE'),
+  ('encodings.koi8_r',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\koi8_r.py',
+   'PYMODULE'),
+  ('encodings.johab',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\johab.py',
+   'PYMODULE'),
+  ('encodings.iso8859_9',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_9.py',
+   'PYMODULE'),
+  ('encodings.iso8859_8',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_8.py',
+   'PYMODULE'),
+  ('encodings.iso8859_7',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_7.py',
+   'PYMODULE'),
+  ('encodings.iso8859_6',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_6.py',
+   'PYMODULE'),
+  ('encodings.iso8859_5',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_5.py',
+   'PYMODULE'),
+  ('encodings.iso8859_4',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_4.py',
+   'PYMODULE'),
+  ('encodings.iso8859_3',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_3.py',
+   'PYMODULE'),
+  ('encodings.iso8859_2',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_2.py',
+   'PYMODULE'),
+  ('encodings.iso8859_16',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_16.py',
+   'PYMODULE'),
+  ('encodings.iso8859_15',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_15.py',
+   'PYMODULE'),
+  ('encodings.iso8859_14',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_14.py',
+   'PYMODULE'),
+  ('encodings.iso8859_13',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_13.py',
+   'PYMODULE'),
+  ('encodings.iso8859_11',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_11.py',
+   'PYMODULE'),
+  ('encodings.iso8859_10',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_10.py',
+   'PYMODULE'),
+  ('encodings.iso8859_1',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso8859_1.py',
+   'PYMODULE'),
+  ('encodings.iso2022_kr',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso2022_kr.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_ext',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso2022_jp_ext.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_3',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso2022_jp_3.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_2004',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso2022_jp_2004.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_2',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso2022_jp_2.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_1',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso2022_jp_1.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\iso2022_jp.py',
+   'PYMODULE'),
+  ('encodings.idna',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\idna.py',
+   'PYMODULE'),
+  ('encodings.hz',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\hz.py',
+   'PYMODULE'),
+  ('encodings.hp_roman8',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\hp_roman8.py',
+   'PYMODULE'),
+  ('encodings.hex_codec',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\hex_codec.py',
+   'PYMODULE'),
+  ('encodings.gbk',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\gbk.py',
+   'PYMODULE'),
+  ('encodings.gb2312',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\gb2312.py',
+   'PYMODULE'),
+  ('encodings.gb18030',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\gb18030.py',
+   'PYMODULE'),
+  ('encodings.euc_kr',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\euc_kr.py',
+   'PYMODULE'),
+  ('encodings.euc_jp',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\euc_jp.py',
+   'PYMODULE'),
+  ('encodings.euc_jisx0213',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\euc_jisx0213.py',
+   'PYMODULE'),
+  ('encodings.euc_jis_2004',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\euc_jis_2004.py',
+   'PYMODULE'),
+  ('encodings.cp950',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp950.py',
+   'PYMODULE'),
+  ('encodings.cp949',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp949.py',
+   'PYMODULE'),
+  ('encodings.cp932',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp932.py',
+   'PYMODULE'),
+  ('encodings.cp875',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp875.py',
+   'PYMODULE'),
+  ('encodings.cp874',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp874.py',
+   'PYMODULE'),
+  ('encodings.cp869',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp869.py',
+   'PYMODULE'),
+  ('encodings.cp866',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp866.py',
+   'PYMODULE'),
+  ('encodings.cp865',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp865.py',
+   'PYMODULE'),
+  ('encodings.cp864',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp864.py',
+   'PYMODULE'),
+  ('encodings.cp863',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp863.py',
+   'PYMODULE'),
+  ('encodings.cp862',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp862.py',
+   'PYMODULE'),
+  ('encodings.cp861',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp861.py',
+   'PYMODULE'),
+  ('encodings.cp860',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp860.py',
+   'PYMODULE'),
+  ('encodings.cp858',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp858.py',
+   'PYMODULE'),
+  ('encodings.cp857',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp857.py',
+   'PYMODULE'),
+  ('encodings.cp856',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp856.py',
+   'PYMODULE'),
+  ('encodings.cp855',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp855.py',
+   'PYMODULE'),
+  ('encodings.cp852',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp852.py',
+   'PYMODULE'),
+  ('encodings.cp850',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp850.py',
+   'PYMODULE'),
+  ('encodings.cp775',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp775.py',
+   'PYMODULE'),
+  ('encodings.cp737',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp737.py',
+   'PYMODULE'),
+  ('encodings.cp720',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp720.py',
+   'PYMODULE'),
+  ('encodings.cp500',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp500.py',
+   'PYMODULE'),
+  ('encodings.cp437',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp437.py',
+   'PYMODULE'),
+  ('encodings.cp424',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp424.py',
+   'PYMODULE'),
+  ('encodings.cp273',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp273.py',
+   'PYMODULE'),
+  ('encodings.cp1258',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1258.py',
+   'PYMODULE'),
+  ('encodings.cp1257',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1257.py',
+   'PYMODULE'),
+  ('encodings.cp1256',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1256.py',
+   'PYMODULE'),
+  ('encodings.cp1255',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1255.py',
+   'PYMODULE'),
+  ('encodings.cp1254',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1254.py',
+   'PYMODULE'),
+  ('encodings.cp1253',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1253.py',
+   'PYMODULE'),
+  ('encodings.cp1252',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1252.py',
+   'PYMODULE'),
+  ('encodings.cp1251',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1251.py',
+   'PYMODULE'),
+  ('encodings.cp1250',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1250.py',
+   'PYMODULE'),
+  ('encodings.cp1140',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1140.py',
+   'PYMODULE'),
+  ('encodings.cp1125',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1125.py',
+   'PYMODULE'),
+  ('encodings.cp1026',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1026.py',
+   'PYMODULE'),
+  ('encodings.cp1006',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp1006.py',
+   'PYMODULE'),
+  ('encodings.cp037',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\cp037.py',
+   'PYMODULE'),
+  ('encodings.charmap',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\charmap.py',
+   'PYMODULE'),
+  ('encodings.bz2_codec',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\bz2_codec.py',
+   'PYMODULE'),
+  ('encodings.big5hkscs',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\big5hkscs.py',
+   'PYMODULE'),
+  ('encodings.big5',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\big5.py',
+   'PYMODULE'),
+  ('encodings.base64_codec',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\base64_codec.py',
+   'PYMODULE'),
+  ('encodings.ascii',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\ascii.py',
+   'PYMODULE'),
+  ('encodings.aliases',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\aliases.py',
+   'PYMODULE'),
+  ('encodings',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\encodings\\__init__.py',
+   'PYMODULE'),
+  ('reprlib',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\reprlib.py',
+   'PYMODULE'),
+  ('codecs',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('weakref',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\weakref.py',
+   'PYMODULE'),
+  ('linecache',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('types',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\types.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('functools',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\functools.py',
+   'PYMODULE'),
+  ('genericpath',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('copyreg',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('locale',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\locale.py',
+   'PYMODULE'),
+  ('keyword',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('warnings',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('io',
+   'D:\\Programming apps\\Programming languages\\Python 3.13.5\\Lib\\io.py',
+   'PYMODULE'),
+  ('operator',
+   'D:\\Programming apps\\Programming languages\\Python '
+   '3.13.5\\Lib\\operator.py',
+   'PYMODULE')])
