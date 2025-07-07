@@ -1,17 +1,17 @@
 from PySide6.QtWidgets import (
-    QPushButton,
+    QWidget,
     QLabel,
+    QPushButton,
     QVBoxLayout,
     QHBoxLayout,
-    QWidget,
-    QFrame,
     QGraphicsDropShadowEffect,
+    QFrame,
 )
-from PySide6.QtGui import QCursor, QPainter, QColor, QPen, QPainterPath
-from PySide6.QtCore import Qt
-from PySide6.QtGui import QGuiApplication
-from icon_provider import IconProvider
+from PySide6.QtSvgWidgets import QSvgWidget
+from PySide6.QtGui import QColor, QPainter, QPainterPath, QCursor, QIcon
+from PySide6.QtCore import Qt, QSize
 from toggle_switch import ToggleSwitch
+from icon_provider import IconProvider
 
 
 class SettingsPanel(QWidget):
@@ -20,183 +20,174 @@ class SettingsPanel(QWidget):
         self.on_save = on_save
         self.on_close = on_close
 
-        self._setup_layout()
-        self._setup_header()
-        self._setup_divider()
-        self._setup_toggle_section(auto_download)
-        self._setup_save_button()
-        self._setup_styling_and_effects(parent)
-
-    def _setup_layout(self):
-        self.layout = QVBoxLayout()
-        self.layout.setContentsMargins(36, 36, 36, 36)
-        self.layout.setSpacing(28)
-        self.setLayout(self.layout)
-
-    def _setup_header(self):
-        header_layout = self._extracted_from__setup_toggle_section_2(
-            "settings",
-            " Settings",
+        self.setObjectName("SettingsPanel")
+        self.setFixedWidth(500)
+        self.setStyleSheet(
             """
-            QLabel {
-                color: #222F3E;
-                font-size: 26px;
-                font-weight: 800;
-                margin-bottom: 0px;
-                letter-spacing: 0.5px;
+            QWidget#SettingsPanel {
+                background-color: white;
+                border-top-left-radius: 24px;
+                border-bottom-left-radius: 24px;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
             }
-        """,
+        """
         )
-        close_btn = QPushButton("✖")
-        close_btn.setFixedSize(40, 40)
+
+        self._init_ui(auto_download)
+        self._add_shadow()
+
+    def _init_ui(self, auto_download):
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(30, 30, 30, 30)
+        layout.setSpacing(24)
+
+        layout.addLayout(self._build_header())
+        layout.addWidget(self._divider())
+        layout.addLayout(self._build_toggle_row(auto_download))
+        layout.addStretch()
+        layout.addWidget(self._build_save_button())
+
+    def _build_header(self):
+        header = QHBoxLayout()
+        header.setSpacing(12)
+
+        if icon_path := IconProvider.get_path("settings"):
+            icon = self._svg_icon(icon_path, 28)
+        else:
+            icon = QWidget()
+            icon.setFixedSize(28, 28)
+        title = QLabel(" Settings")
+        title.setStyleSheet("font-size: 24px; font-weight: 800; color: #2C3E50;")
+        title.setMinimumHeight(28)
+
+        close_btn = QPushButton()
+        if close_icon_path := IconProvider.get_path("delete"):
+            close_btn.setIcon(QIcon(close_icon_path))
+            close_btn.setIconSize(QSize(32, 32))
+        close_btn.setFixedSize(32, 32)
+        close_btn.setCursor(QCursor(Qt.PointingHandCursor))
         close_btn.setStyleSheet(
             """
             QPushButton {
-                background: #F1F2F6;
-                color: #E74C3C;
-                border: 2px solid #E74C3C;
-                border-radius: 20px;
-                font-size: 22px;
-                font-weight: bold;
+                background-color: transparent;
+                color: #7F8C8D;
+                border: none;
+                font-size: 20px;
             }
             QPushButton:hover {
-                background: #E74C3C;
-                color: #FFF;
+                color: #E74C3C;
             }
         """
         )
-        close_btn.setCursor(QCursor(Qt.PointingHandCursor))
         close_btn.clicked.connect(self.handle_close)
-        header_layout.addWidget(close_btn)
 
-        self.layout.addLayout(header_layout)
+        self._add_icon_and_label_to_layout(header, icon, title)
+        header.addWidget(close_btn)
+        return header
 
-    def _setup_divider(self):
-        divider = QFrame()
-        divider.setFrameShape(QFrame.HLine)
-        divider.setFrameShadow(QFrame.Sunken)
-        divider.setStyleSheet(
-            "border: none; background: #E0E0E0; height: 2px; margin: 0 0 12px 0;"
-        )
-        self.layout.addWidget(divider)
+    def _build_toggle_row(self, auto_download):
+        row = QHBoxLayout()
+        row.setSpacing(12)
 
-    def _setup_toggle_section(self, auto_download):
-        toggle_row = self._extracted_from__setup_toggle_section_2(
-            "auto",
-            " Auto-download when valid URL is detected",
-            """
-            QLabel {
-                color: #34495E;
-                font-size: 17px;
-                font-weight: 600;
-            }
-        """,
-        )
+        if icon_path := IconProvider.get_path("download"):
+            icon = self._svg_icon(icon_path, 16)
+        else:
+            icon = QWidget()
+            icon.setFixedSize(16, 16)
+        label = QLabel("Auto-download when valid URL is detected")
+        label.setStyleSheet("font-size: 16px; color: #2C3E50; font-weight: 600;")
+
         self.toggle = ToggleSwitch()
         self.toggle.setChecked(auto_download)
-        toggle_row.addWidget(self.toggle)
 
-        self.layout.addLayout(toggle_row)
-        self.layout.addStretch()
+        self._add_icon_and_label_to_layout(row, icon, label)
+        row.addWidget(self.toggle)
+        return row
 
-    # TODO Rename this here and in `_setup_header` and `_setup_toggle_section`
-    def _extracted_from__setup_toggle_section_2(self, arg0, arg1, arg2):
-        result = QHBoxLayout()
-        title = QLabel(f"{IconProvider.get(arg0)}{arg1}")
-        title.setStyleSheet(arg2)
-        result.addWidget(title)
-        result.addStretch()
-        return result
+    def _add_icon_and_label_to_layout(self, layout, icon, label):
+        layout.addWidget(icon)
+        layout.addWidget(label)
+        layout.addStretch()
 
-    def _setup_save_button(self):
-        btn = QPushButton("Save")
+    def _build_save_button(self):
+        btn = QPushButton("  Save Settings")
+        save_icon_path = IconProvider.get_path("save")
+        if save_icon_path:
+            btn.setIcon(QIcon(save_icon_path))
+            btn.setIconSize(QSize(16, 16))
+        btn.setCursor(QCursor(Qt.PointingHandCursor))
+        btn.setFixedHeight(44)
         btn.setStyleSheet(
             """
             QPushButton {
-                background-color: #3498DB;
+                background: qlineargradient(
+                    x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #3498DB, stop:1 #2980B9
+                );
                 color: white;
                 border: none;
-                border-radius: 10px;
+                border-radius: 22px;
+                font-size: 16px;
                 font-weight: bold;
-                padding: 16px 36px;
-                font-size: 18px;
+                padding: 0 24px;
             }
             QPushButton:hover {
-                background-color: #217DBB;
+                background: #2471A3;
             }
         """
         )
-        btn.setCursor(QCursor(Qt.PointingHandCursor))
         btn.clicked.connect(self.handle_save)
-        self.layout.addWidget(btn)
+        return btn
 
-    def _setup_styling_and_effects(self, parent):
-        self.setFixedWidth(540)
+    def _divider(self):
+        line = QFrame()
+        line.setFrameShape(QFrame.HLine)
+        line.setFixedHeight(1)
+        line.setStyleSheet("background-color: #E0E0E0;")
+        return line
 
-        if screen := QGuiApplication.primaryScreen():
-            self.setFixedHeight(screen.geometry().height())
-        else:
-            self.setFixedHeight(parent.height() if parent else 300)
+    def _svg_icon(self, path, size):
+        import os
 
-        self.move(0, 0)
+        if not os.path.exists(path):
+            # Return an empty widget if icon doesn't exist
+            widget = QWidget()
+            widget.setFixedSize(size, size)
+            return widget
+        icon = QSvgWidget(path)
+        icon.setFixedSize(size, size)
+        return icon
 
+    def _add_shadow(self):
         shadow = QGraphicsDropShadowEffect(self)
-        shadow.setBlurRadius(18)
-        shadow.setOffset(-4, 0)
-        shadow.setColor(QColor("#87CEFA"))
+        shadow.setBlurRadius(24)
+        shadow.setColor(QColor(0, 0, 0, 40))
+        shadow.setOffset(0, 4)
         self.setGraphicsEffect(shadow)
 
     def paintEvent(self, event):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.Antialiasing)
         rect = self.rect()
-        path = QPainterPath()
         radius = 24
+        path = QPainterPath()
+        # Start at top-left, round top-left
         path.moveTo(rect.left() + radius, rect.top())
         path.arcTo(rect.left(), rect.top(), 2 * radius, 2 * radius, 90, 90)
+        # Left edge
         path.lineTo(rect.left(), rect.bottom() - radius)
+        # Round bottom-left
         path.arcTo(
             rect.left(), rect.bottom() - 2 * radius, 2 * radius, 2 * radius, 180, 90
         )
+        # Bottom edge to bottom-right (square)
         path.lineTo(rect.right(), rect.bottom())
+        # Top edge to top-right (square)
         path.lineTo(rect.right(), rect.top())
-        path.closeSubpath()
-        painter.setBrush(QColor("#FFFAFA"))
-        painter.setPen(Qt.NoPen)
-        painter.drawPath(path)
-        thin_pen = QPen(QColor("#87CEFA"), 2)
-        painter.setPen(thin_pen)
-        painter.drawLine(
-            rect.left() + radius, rect.top() + 1, rect.right() - 1, rect.top() + 1
-        )
-        painter.drawArc(
-            rect.left() + 1,
-            rect.top() + 1,
-            2 * radius - 2,
-            2 * radius - 2,
-            90 * 16,
-            90 * 16,
-        )
-        painter.drawLine(
-            rect.left() + 1,
-            rect.top() + radius,
-            rect.left() + 1,
-            rect.bottom() - radius,
-        )
-        painter.drawArc(
-            rect.left() + 1,
-            rect.bottom() - 2 * radius + 1,
-            2 * radius - 2,
-            2 * radius - 2,
-            180 * 16,
-            90 * 16,
-        )
-        painter.drawLine(
-            rect.left() + radius, rect.bottom() - 1, rect.right() - 1, rect.bottom() - 1
-        )
-        thick_pen = QPen(QColor("#87CEFA"), 8)
-        painter.setPen(thick_pen)
-        painter.drawLine(rect.right() - 4, rect.top(), rect.right() - 4, rect.bottom())
+        # Close path
+        path.lineTo(rect.left() + radius, rect.top())
+        painter.fillPath(path, QColor("white"))
         super().paintEvent(event)
 
     def handle_save(self):

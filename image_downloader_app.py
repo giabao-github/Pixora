@@ -24,7 +24,7 @@ from settings.settings_manager import load_settings, save_settings
 class ImageDownloaderApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle(f"{IconProvider.get('image')} Pixora")
+        self.setWindowTitle("Pixora")
         self.setFixedSize(950, 700)
 
         self.folder_path = ""
