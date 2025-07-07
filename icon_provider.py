@@ -14,12 +14,13 @@ class IconProvider:
         "info": "ℹ️",
         "warning": "⚠️",
         "search": "🔍",
+        "status": "🟢",
         "save": "💾",
         "link": "🔗",
         "settings": "⚙️",
-        "history": "📜",
+        "history": "🕒",
         "auto": "🔄",
-        "file": "📄",
+        "filename": "📝",
     }
     ICON_DIR = os.path.join(os.path.dirname(__file__), "icons")
 

@@ -8,7 +8,6 @@ from PySide6.QtWidgets import (
     QLineEdit,
     QScrollArea,
     QTextEdit,
-    QSizePolicy,
 )
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QCursor, QIcon
@@ -99,7 +98,7 @@ def create_header_section(main_window):
 
 
 def create_url_input_group(main_window):
-    url_group = QGroupBox("Image URL")
+    url_group = QGroupBox(f"{IconProvider.get('link')} Image URL")
     url_group.setStyleSheet(
         """
         QGroupBox {
@@ -113,7 +112,8 @@ def create_url_input_group(main_window):
         QGroupBox::title {
             subcontrol-origin: margin;
             left: 10px;
-            padding: 0 5px 0 5px;
+            padding: 0 8px 0 8px;
+            margin-top: 2px;
         }
     """
     )
@@ -162,7 +162,9 @@ def create_url_input_group(main_window):
 
 
 def create_filename_input_group(main_window):
-    filename_group = QGroupBox("Custom Filename (Optional)")
+    filename_group = QGroupBox(
+        f"{IconProvider.get('filename')} Custom Filename (Optional)"
+    )
     filename_group.setStyleSheet(
         """
         QGroupBox {
@@ -176,7 +178,8 @@ def create_filename_input_group(main_window):
         QGroupBox::title {
             subcontrol-origin: margin;
             left: 10px;
-            padding: 0 5px 0 5px;
+            padding: 0 8px 0 8px;
+            margin-top: 2px;
         }
     """
     )
@@ -225,7 +228,7 @@ def create_filename_input_group(main_window):
 
 
 def create_folder_group(main_window):
-    folder_group = QGroupBox("Download Location")
+    folder_group = QGroupBox(f"{IconProvider.get('folder')} Download Location")
     folder_group.setStyleSheet(
         """
         QGroupBox {
@@ -239,7 +242,8 @@ def create_folder_group(main_window):
         QGroupBox::title {
             subcontrol-origin: margin;
             left: 10px;
-            padding: 0 5px 0 5px;
+            padding: 0 8px 0 8px;
+            margin-top: 2px;
         }
     """
     )
@@ -266,7 +270,7 @@ def create_folder_group(main_window):
     main_window.folder_btn.clicked.connect(main_window.choose_folder)
     main_window.folder_btn.setStyleSheet(get_button_style("#27AE60"))
     main_window.folder_btn.setCursor(QCursor(Qt.PointingHandCursor))
-    main_window.open_btn = QPushButton(f"{IconProvider.get('folder')} Open Folder")
+    main_window.open_btn = QPushButton(f"{IconProvider.get('folder_open')} Open Folder")
     main_window.open_btn.clicked.connect(main_window.open_folder)
     main_window.open_btn.setEnabled(False)
     main_window.open_btn.setStyleSheet(get_button_style("#34495E"))
@@ -305,7 +309,7 @@ def create_right_panel(main_window):
     layout.setContentsMargins(20, 20, 20, 20)
     layout.setSpacing(15)
     # Status Group
-    status_group = QGroupBox("Status")
+    status_group = QGroupBox(f"{IconProvider.get('check')} Status")
     status_group.setStyleSheet(
         """
         QGroupBox {
@@ -319,7 +323,8 @@ def create_right_panel(main_window):
         QGroupBox::title {
             subcontrol-origin: margin;
             left: 10px;
-            padding: 0 5px 0 5px;
+            padding: 0 8px 0 8px;
+            margin-top: 2px;
         }
     """
     )
@@ -342,7 +347,7 @@ def create_right_panel(main_window):
     status_group.setLayout(status_layout)
     layout.addWidget(status_group)
     # Download History Group
-    history_group = QGroupBox(f"{IconProvider.get('history')} Download History")
+    history_group = QGroupBox(f"{IconProvider.get('save')} Download History")
     history_group.setStyleSheet(
         """
         QGroupBox {

@@ -52,7 +52,11 @@ class SettingsPanel(QWidget):
         header = QHBoxLayout()
         header.setSpacing(12)
 
-        icon = self._svg_icon("icons/settings.svg", 28)
+        if icon_path := IconProvider.get_path("settings"):
+            icon = self._svg_icon(icon_path, 28)
+        else:
+            icon = QWidget()
+            icon.setFixedSize(28, 28)
         title = QLabel(" Settings")
         title.setStyleSheet("font-size: 24px; font-weight: 800; color: #2C3E50;")
         title.setMinimumHeight(28)
@@ -86,7 +90,11 @@ class SettingsPanel(QWidget):
         row = QHBoxLayout()
         row.setSpacing(12)
 
-        icon = self._svg_icon("icons/download.svg", 16)
+        if icon_path := IconProvider.get_path("download"):
+            icon = self._svg_icon(icon_path, 16)
+        else:
+            icon = QWidget()
+            icon.setFixedSize(16, 16)
         label = QLabel("Auto-download when valid URL is detected")
         label.setStyleSheet("font-size: 16px; color: #2C3E50; font-weight: 600;")
 
@@ -140,6 +148,13 @@ class SettingsPanel(QWidget):
         return line
 
     def _svg_icon(self, path, size):
+        import os
+
+        if not os.path.exists(path):
+            # Return an empty widget if icon doesn't exist
+            widget = QWidget()
+            widget.setFixedSize(size, size)
+            return widget
         icon = QSvgWidget(path)
         icon.setFixedSize(size, size)
         return icon
