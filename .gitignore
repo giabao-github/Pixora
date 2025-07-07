@@ -178,3 +178,5 @@ Desktop.ini
 *.toc
 *.pyz
 *.zip 
+build/**/*.html
+build/app/xref-*.html
